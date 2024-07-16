@@ -1,0 +1,70 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(56, 56, 56, 0.7);
+    padding: 30px;
+    min-height: 100vh;
+    gap: 50px;
+}
+
+.map {
+    align-self: center;
+    flex: 0 0 600px;
+    width: 60%;
+    min-height: 60%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.button {
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.all {
+    background-color: #ff0027;
+}
+
+.price-tag {
+    background-color: #4285F4;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.price-tag::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 0);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #4285F4;
+}
+
+.custom-marker {
+    background-color: #4285F4;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

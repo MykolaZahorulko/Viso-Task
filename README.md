@@ -2,7 +2,7 @@
 
 # Test Task for Viso Software Company
 
-## Author: Bohdan Zahorulko
+## Author: Mykola Zahorulko
 
 ### Description
 
